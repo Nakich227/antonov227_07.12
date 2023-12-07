@@ -29,52 +29,27 @@ namespace antonov227_07._12
         {
             int a = Convert.ToInt32(AA.Text);
             int b = Convert.ToInt32(BB.Text);
+            string s = "";
             switch (a)
             {
-                case 6:
-                    MessageBox.Show("шестёрка ");
-                    break;
-                case 7:
-                    MessageBox.Show("семёрка ");
-                    break;
-                case 8:
-                    MessageBox.Show("восьмёрка ");
-                    break;
-                case 9:
-                    MessageBox.Show("девятка ");
-                    break;
-                case 10:
-                    MessageBox.Show("десятка ");
-                    break;
-                case 11:
-                    MessageBox.Show("валет ");
-                    break;
-                case 12:
-                    MessageBox.Show("дама");
-                    break;
-                case 13:
-                    MessageBox.Show("король ");
-                    break;
-                case 14:
-                    MessageBox.Show("туз ");
-                    break;
+                case 6: s = "шестёрка"; break;
+                case 7: s = "семерка"; break;
+                case 8: s = "восмерка"; break;
+                case 9: s = "девятка"; break;
+                case 10: s = "десятка"; break;
+                case 11: s = "валет"; break;
+                case 12: s = "дама"; break;
+                case 13: s = "король"; break;
+                case 14: s = "туз"; break;
             }
-
             switch (b)
             {
-                case 1:
-                    MessageBox.Show("пики");
-                    break;
-                case 2:
-                    MessageBox.Show("крести");
-                    break;
-                case 3:
-                    MessageBox.Show("буби");
-                    break;
-                case 4:
-                    MessageBox.Show("черви");
-                    break;
+                case 1: s += " пики"; break;
+                case 2: s += "  крести"; break;
+                case 3: s += " буби"; break;
+                case 4: s += " черви"; break;
             }
+            MessageBox.Show($"ответ: {s}") ;
 
 
         }
