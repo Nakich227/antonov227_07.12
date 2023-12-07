@@ -27,15 +27,16 @@ namespace antonov227_07._12
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            int n = Convert.ToInt32(AA.Text);
-            int K = 0;
-            int S = 0;
-            while (S <= n)
+            int n = int.Parse(AA.Text);
+            int last = 0;
+            string R = "";
+            while (n > 0)
             {
-                ++K;
-                S += K;
+                last = n % 10;
+                n /= 10;
+                R += $"{last}";
             }
-            MessageBox.Show($"ответ: s = {S} k = {K}");
+            MessageBox.Show($"Ответ: {R}");
 
 
 
