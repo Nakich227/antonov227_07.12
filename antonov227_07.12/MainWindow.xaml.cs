@@ -28,55 +28,42 @@ namespace antonov227_07._12
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             int a = Convert.ToInt32(AA.Text);
-            int b = Convert.ToInt32(BB.Text);
-            switch (a)
-            {
-                case 6:
-                    MessageBox.Show("шестёрка ");
-                    break;
-                case 7:
-                    MessageBox.Show("семёрка ");
-                    break;
-                case 8:
-                    MessageBox.Show("восьмёрка ");
-                    break;
-                case 9:
-                    MessageBox.Show("девятка ");
-                    break;
-                case 10:
-                    MessageBox.Show("десятка ");
-                    break;
-                case 11:
-                    MessageBox.Show("валет ");
-                    break;
-                case 12:
-                    MessageBox.Show("дама");
-                    break;
-                case 13:
-                    MessageBox.Show("король ");
-                    break;
-                case 14:
-                    MessageBox.Show("туз ");
-                    break;
-            }
-
-            switch (b)
+            switch (a) // переключатель, основанный на выборе пользователя.
             {
                 case 1:
-                    MessageBox.Show("пики");
-                    break;
                 case 2:
-                    MessageBox.Show("крести");
-                    break;
+                case 12:
+                    {
+                        MessageBox.Show("зима"); // выбрал значения 1, 2, 12 .
+                        break;
+                    }
+
                 case 3:
-                    MessageBox.Show("буби");
-                    break;
                 case 4:
-                    MessageBox.Show("черви");
-                    break;
+                case 5:
+                    {
+                        MessageBox.Show("весна"); // выбрал значения 3, 4, 5.
+                        break;
+                    }
+
+                case 6:
+                case 7:
+                case 8:
+                    {
+                        MessageBox.Show("лето"); // выбрал значение 6, 7, 8.
+                        break;
+                    }
+
+                case 9:
+                case 10:
+                case 11:
+                    {
+                        MessageBox.Show("Осень"); // выбрал значение 9, 10, 11.
+                        break;
+                    }
+
+
             }
-
-
         }
     }
 }
