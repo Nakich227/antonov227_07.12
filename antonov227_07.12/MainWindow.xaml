@@ -23,7 +23,7 @@
                    HorizontalAlignment="Center" 
                    VerticalAlignment="Center"
                    Grid.ColumnSpan="2" 
-                   Text="Задание 3"/>
+                   Text="Задание 4"/>
         <TextBlock Margin="10"  
                    Grid.Row="1" 
                    Text="n" 

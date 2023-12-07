@@ -36,7 +36,7 @@ namespace antonov227_07._12
                 q++;
             }
 
-            MessageBox.Show($"ответ: q{q} n{n}");
+            MessageBox.Show($"ответ: частное = {q} остаток = {n}");
 
 
 
