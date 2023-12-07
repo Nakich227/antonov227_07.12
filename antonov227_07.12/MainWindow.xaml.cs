@@ -28,29 +28,41 @@ namespace antonov227_07._12
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             int a = Convert.ToInt32(AA.Text);
-            switch (a)
+            switch (a) // переключатель, основанный на выборе пользователя.
             {
                 case 1:
                 case 2:
                 case 12:
-                    MessageBox.Show("Зима");
-                    break;
+                    {
+                        MessageBox.Show("Winter!"); // выбрал значения 1, 2, 12 .
+                        break;
+                    }
+
                 case 3:
                 case 4:
                 case 5:
-                    MessageBox.Show("Весна");
-                    break;
+                    {
+                        MessageBox.Show("весна"); // выбрал значения 3, 4, 5.
+                        break;
+                    }
+
                 case 6:
                 case 7:
                 case 8:
-                    MessageBox.Show ("Лето");
-                    break;
+                    {
+                        MessageBox.Show("лето") ; // выбрал значение 6, 7, 8.
+                        break;
+                    }
+
                 case 9:
                 case 10:
                 case 11:
-                    MessageBox.Show("Осень");
-                    break;
+                    {
+                        MessageBox.Show("Осень"); // выбрал значение 9, 10, 11.
+                        break;
+                    }
             }
+
         }
     }
 }

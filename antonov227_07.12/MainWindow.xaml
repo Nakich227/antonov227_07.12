@@ -35,11 +35,11 @@
                  Grid.Row="1" 
                  Grid.Column="1" />
         <Button Click="Button_Click" 
-                Content="Найти"
+                Content="узнать время года"
                 FontSize="30"
                 Grid.Row="5" 
                 Height="50"
-                Width="100"
+                Width="300"
                 Grid.ColumnSpan="2"/>
     </Grid>
 </Window>
