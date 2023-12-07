@@ -26,8 +26,8 @@
                    Text="Задание 2"/>
         <TextBlock Margin="10"  
                    Grid.Row="1" 
-                   Text="карта" 
-                   FontSize="30" 
+                   Text="элимент" 
+                   FontSize="20" 
                    VerticalAlignment="Center"/>
         <TextBox x:Name="AA" 
                  FontSize="25" 
@@ -36,11 +36,21 @@
                  Grid.Column="1" />
         <TextBlock Margin="10" 
                    Grid.Row="2" 
-                   Text="масть" 
-                   FontSize="30" 
+                   Text="значение" 
+                   FontSize="25" 
                    VerticalAlignment="Center"/>
-        <TextBox x:Name="BB" FontSize="25" Margin="10" Grid.Row="2" Grid.Column="1" />
-        <Button Click="Button_Click" Content="Найти" FontSize="30" Grid.Row="5" Height="50" Width="100" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="BB" 
+                 FontSize="25" 
+                 Margin="10" 
+                 Grid.Row="2" 
+                 Grid.Column="1" />
+        <Button Click="Button_Click" 
+                Content="решить" 
+                FontSize="30"
+                Grid.Row="5" 
+                Height="50" 
+                Width="100"
+                Grid.ColumnSpan="2"/>
 
     </Grid>
 </Window>

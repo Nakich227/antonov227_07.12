@@ -27,46 +27,39 @@ namespace antonov227_07._12
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            int a = Convert.ToInt32(AA.Text);
-            double b = Convert.ToInt32(BB.Text);
-            double z, x, c, v;
-            switch (a)
+            int n = Convert.ToInt32(AA.Text);
+            double x = Convert.ToInt32(BB.Text);
+            double a, r1, r2, s;
+
+            switch (n)
             {
                 case 1:
-                    z = b ;
-                    x = z * Math.Sqrt(3) / 6;
-                    c = 2 *x;
-                    v = z * z * Math.Sqrt(3) / 4;
-                    Console.WriteLine(x);
-                    Console.WriteLine(c);
-                    Console.WriteLine(v);
+                    a = x;
+                    r1 = a * Math.Sqrt(3) / 6;
+                    r2 = 2 * r1;
+                    s = a * a * Math.Sqrt(3) / 4;
+                    MessageBox.Show($"ответ: r1 = {r1} r2 = {r2} s = {s}");
                     break;
                 case 2:
-                    x = b;
-                    z = x * 6 / Math.Sqrt(3);
-                    c = 2 * x;
-                    v = a * a * Math.Sqrt(3) / 4;
-                    Console.WriteLine(z);
-                    Console.WriteLine(c);
-                    Console.WriteLine(v);
+                    r1 = x;
+                    a = r1 * 6 / Math.Sqrt(3);
+                    r2 = 2 * r1;
+                    s = a * a * Math.Sqrt(3) / 4;
+                    MessageBox.Show($"ответ: a = {a} r2 = {r2} s = {s}");
                     break;
                 case 3:
-                    c = b;
-                    x = c / 2;
-                    z = x * 6 / Math.Sqrt(3);
-                    v = a * a * Math.Sqrt(3) / 4;
-                    Console.WriteLine(z);
-                    Console.WriteLine(x);
-                    Console.WriteLine(v);
+                    r2 = x;
+                    r1 = r2 / 2;
+                    a = r1 * 6 / Math.Sqrt(3);
+                    s = a * a * Math.Sqrt(3) / 4;
+                    MessageBox.Show($"ответ: a = {a} r1 = {r1} s = {s}");
                     break;
                 case 4:
-                    v = b;
-                    z = Math.Sqrt(v * 4 / Math.Sqrt(3));
-                    x = a * Math.Sqrt(3) / 6;
-                    c = 2 * x;
-                    Console.WriteLine(x);
-                    Console.WriteLine(c);
-                    Console.WriteLine(z);
+                    s = x;
+                    a = Math.Sqrt(s * 4 / Math.Sqrt(3));
+                    r1 = a * Math.Sqrt(3) / 6;
+                    r2 = 2 * r1;
+                    MessageBox.Show($"ответ: r1 = {r1} r2 = {r2} a = {a}");
                     break;
             }
 
