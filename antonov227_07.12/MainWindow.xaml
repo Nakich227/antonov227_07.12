@@ -26,7 +26,7 @@
                    Text="Задание 3"/>
         <TextBlock Margin="10"  
                    Grid.Row="1" 
-                   Text="элимент" 
+                   Text="n" 
                    FontSize="20" 
                    VerticalAlignment="Center"/>
         <TextBox x:Name="AA" 
@@ -36,7 +36,7 @@
                  Grid.Column="1" />
         <TextBlock Margin="10" 
                    Grid.Row="2" 
-                   Text="значение" 
+                   Text="k" 
                    FontSize="25" 
                    VerticalAlignment="Center"/>
         <TextBox x:Name="BB" 
