@@ -21,27 +21,37 @@
         </Grid.ColumnDefinitions>
         <TextBlock FontSize="50" 
                    HorizontalAlignment="Center" 
-                   VerticalAlignment="Center"
+                   VerticalAlignment="Center" 
                    Grid.ColumnSpan="2" 
-                   Text="Задание 7"/>
+                   Text="Задание 8"/>
         <TextBlock Margin="10"  
                    Grid.Row="1" 
-                   Text="число" 
-                   FontSize="20" 
+                   Text="a"
+                   FontSize="30" 
                    VerticalAlignment="Center"/>
-        <TextBox x:Name="AA" 
-                 FontSize="25" 
+        <TextBox x:Name="AA"
+                 FontSize="25"
                  Margin="10" 
                  Grid.Row="1" 
                  Grid.Column="1" />
-       
+        <TextBlock Margin="10" 
+                   Grid.Row="2"
+                   Text="b" 
+                   FontSize="30" 
+                   VerticalAlignment="Center"/>
+        <TextBox x:Name="BB"
+                 FontSize="25"
+                 Margin="10" 
+                 Grid.Row="2" 
+                 Grid.Column="1" />
         <Button Click="Button_Click" 
-                Content="решить" 
-                FontSize="30"
+                Content="Найти" 
+                FontSize="30" 
                 Grid.Row="5" 
                 Height="50" 
-                Width="120"
+                Width="100" 
                 Grid.ColumnSpan="2"/>
+
 
     </Grid>
 </Window>
